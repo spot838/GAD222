@@ -1140,6 +1140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainTextDisplay: {fileID: 270863491}
+  debugText: 
 --- !u!4 &1931592870
 Transform:
   m_ObjectHideFlags: 0

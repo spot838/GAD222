@@ -12,16 +12,49 @@ public class TextManager : MonoBehaviour
         else Destroy(this);
     }
     public TextMeshProUGUI mainTextDisplay;
+    [SerializeField] [TextArea] string debugText;
+
+    public void ClearMainText()
+    {
+        Debug.Log("Called ClearMainText");
+        mainTextDisplay.text = string.Empty;
+    }
+    public void AddTextPlain(string newText)
+    {
+        Debug.Log("Called AddTextPlain");
+        mainTextDisplay.text += newText;
+    }
+    public void AddTextNewLine(string newText)
+    {
+        Debug.Log("Called AddTextNewLine");
+        mainTextDisplay.text += "\n"+newText;
+    }
+    public void AddTextDebug()
+    {
+        Debug.Log("Called AddTextDebug");
+        debugText = debugText.Replace("\n", "\n");
+        mainTextDisplay.text += debugText;
+    }
+
     private void Awake()
     {
         CreateSingleton();
     }
-    public void ClearMainText()
+    private void Start()
     {
-        mainTextDisplay.text = string.Empty;
+        ClearMainText();
     }
-    public void AddText(string newText)
+    private void Update()
     {
-        mainTextDisplay.text += "/n"+newText;
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            Debug.Log("Z Pressed");
+            AddTextDebug();
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Debug.Log("X Pressed");
+            ClearMainText();
+        }
     }
 }
