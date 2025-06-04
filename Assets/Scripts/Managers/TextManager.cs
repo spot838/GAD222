@@ -12,6 +12,7 @@ public class TextManager : MonoBehaviour
         else Destroy(this);
     }
     public TextMeshProUGUI mainTextDisplay;
+    public TextMeshProUGUI optionsTextDisplay;
     [SerializeField] [TextArea] string debugText;
 
     public void ClearMainText()
@@ -36,6 +37,11 @@ public class TextManager : MonoBehaviour
         mainTextDisplay.text += debugText;
     }
 
+    public void ConstructOptionsTextDisplay(StoryBlock storyBlock)
+    {
+        optionsTextDisplay.text = storyBlock.option1Text + storyBlock.option2Text + storyBlock.option3Text + storyBlock.option4Text;
+    }
+
     private void Awake()
     {
         CreateSingleton();
@@ -46,14 +52,14 @@ public class TextManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            Debug.Log("Z Pressed");
+            Debug.Log("D Pressed");
             AddTextDebug();
         }
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            Debug.Log("X Pressed");
+            Debug.Log("C Pressed");
             ClearMainText();
         }
     }
