@@ -39,16 +39,14 @@ public class TextManager : MonoBehaviour
 
     public void ConstructOptionsTextDisplay(StoryBlock storyBlock)
     {
-        optionsTextDisplay.text = storyBlock.option1Text + storyBlock.option2Text + storyBlock.option3Text + storyBlock.option4Text;
+        Debug.Log("Called ConstructOptionsTextDisplay");
+        optionsTextDisplay.text = ("Option 1: " + storyBlock.option1Text) + ("\nOption 2: " + storyBlock.option2Text) + ("\nOption 3: " + storyBlock.option3Text) + ("\nOption 4: " + storyBlock.option4Text);
+        GameManager.Instance.listeningForInputs = true;
     }
 
     private void Awake()
     {
         CreateSingleton();
-    }
-    private void Start()
-    {
-        ClearMainText();
     }
     private void Update()
     {
