@@ -16,34 +16,43 @@ public class StoryManager : MonoBehaviour
     {
         if (value == 1)
         {
-            ChangeCurrentStoryBlock(currentStoryBlock.option1StoryBlock);
+            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option1StoryBlock));
         }
         else if (value == 2)
         {
-            ChangeCurrentStoryBlock(currentStoryBlock.option2StoryBlock);
+            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option2StoryBlock));
         }
         else if (value == 3)
         {
-            ChangeCurrentStoryBlock(currentStoryBlock.option3StoryBlock);
+            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option4StoryBlock));
         }
         else if (value == 4)
         {
-            ChangeCurrentStoryBlock(currentStoryBlock.option4StoryBlock);
+            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option4StoryBlock));
         }
         else
         {
             TextManager.Instance.AddTextPlain("There has been an error with the selected option");
         }
-        LoadCurrentStoryBlock();
     }
-    public void ChangeCurrentStoryBlock(StoryBlock newStoryBlock)
+    public bool ChangeCurrentStoryBlock(StoryBlock newStoryBlock)
     {
-        currentStoryBlock = newStoryBlock;
+        bool didChange = false;
+        if (newStoryBlock != null && newStoryBlock != currentStoryBlock)
+        {
+            currentStoryBlock = newStoryBlock;
+            didChange = true;
+            return didChange;
+        }
+        return didChange;
     }
-    void LoadCurrentStoryBlock()
+    void LoadCurrentStoryBlock(bool shouldLoad)
     {
-        TextManager.Instance.AddTextNewLine(currentStoryBlock.mainText);
-        TextManager.Instance.ConstructOptionsTextDisplay(currentStoryBlock);
+        if (shouldLoad)
+        {
+            TextManager.Instance.AddTextNewLine(currentStoryBlock.mainText);
+            TextManager.Instance.ConstructOptionsTextDisplay(currentStoryBlock);
+        }
     }
 
     private void Awake()

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy is sent out with Rohan to a tiny neighboring village where the
+    two of them are tasked with \u201Cpersuading\u201D the village to willingly become
+    part of the Faelanore kingdom.\r\n\r\nPildroy: \u201CI don\u2019t know how to
+    feel about this Rohan, I\u2019ve fought for Vespen before but this is the first
+    assignment he\u2019s given me where I\u2019m not just fighting to defend Faelanore.
+    It doesn\u2019t feel right.\u201D\r\n\r\nRohan: \u201CWell you might think that
+    but it\u2019s only a small village, barely even that, there\u2019s only like
+    what\u2026 eighty or so people? That's barely a settlement. Let\u2019s just get
+    this over and done with so we can get back home for a nice warm meal. I don\u2019t
+    want to be out for much longer past sunfall, we are already behind with how long
+    it took you to get ready.\u201D\r\n\r\nPildory: \u201CWhatever, I don\u2019t
+    want to be out doing this for any longer than you do.\u201D\r\n\r\nThe two young
+    knights travel for a short while before arriving at an unexpected fork in the
+    road.\r\n\r\nPildory: \u201CThis wasn\u2019t in the brief, or on our map either.\u201D\r\n\r\nRohan:
+    \u201CYou\u2019re not wrong, I\u2019m going to have a scout around to make sure
+    we are safe. Don\u2019t go too far yourself, but you should check over the map
+    again and see if you can at least figure out which patch is going to lead us
+    there.\u201D\r\n\r\nRohan rides off the right side of the path, his horse kicking
+    up the dirt and grass behind him. He passes behind some trees and is no longer
+    visible.\r\n\r\nThe fork in the road sits in front of Pildroy.\r\n\r\nThe map
+    shows only a straight path where they are meant to be, but it seems as though
+    it should be slightly closer to the left as that is the side closest to the church,
+    which is on the left side of the road a not too far back along the patch.\r\n\r\nThe
+    right side does show more life, greener grass and more flora so maybe that is
+    the side that would lead to the village?\r\n"
+  option1Text: Take the left route
+  option1StoryBlock: {fileID: 11400000, guid: 1105ca6ea1b75234eb48402a639a74ce, type: 2}
+  option2Text: Take the right route
+  option2StoryBlock: {fileID: 11400000, guid: c795f04a1ad2f4d47859580156a14268, type: 2}
+  option3Text: N/A
+  option3StoryBlock: {fileID: 0}
+  option4Text: N/A
+  option4StoryBlock: {fileID: 0}

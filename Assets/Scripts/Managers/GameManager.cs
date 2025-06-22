@@ -25,24 +25,28 @@ public class GameManager : MonoBehaviour
             {
                 Debug.Log("1 Pressed");
                 // Call Option 1
+                TextManager.Instance.TempSkip();
                 StoryManager.Instance.OptionSelected(1);
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 Debug.Log("2 Pressed");
                 // Call Option 2
+                TextManager.Instance.TempSkip();
                 StoryManager.Instance.OptionSelected(2);
             }
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 Debug.Log("3 Pressed");
                 // Call Option 3
+                TextManager.Instance.TempSkip();
                 StoryManager.Instance.OptionSelected(3);
             }
             if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 Debug.Log("4 Pressed");
                 // Call Option 4
+                TextManager.Instance.TempSkip();
                 StoryManager.Instance.OptionSelected(4);
             }
         }

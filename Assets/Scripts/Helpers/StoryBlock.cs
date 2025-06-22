@@ -7,13 +7,13 @@ public class StoryBlock : ScriptableObject
     [Space(20)]
     [Header("Options")]
     [TextArea] public string option1Text = "New Text";
-    [TextArea] public string option2Text = "New Text";
-    [TextArea] public string option3Text = "New Text";
-    [TextArea] public string option4Text = "New Text";
-    [Space(50)]
-    [Header("Linked StoryBlocks")]
     public StoryBlock option1StoryBlock;
+    [TextArea] public string option2Text = "New Text";
     public StoryBlock option2StoryBlock;
+    [TextArea] public string option3Text = "New Text";
     public StoryBlock option3StoryBlock;
+    [TextArea] public string option4Text = "New Text";
     public StoryBlock option4StoryBlock;
+    //[Space(50)]
+    //[Header("Linked StoryBlocks")]
 }

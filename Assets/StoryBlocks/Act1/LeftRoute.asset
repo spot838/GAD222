@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: LeftRoute
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy sets out down the left path, going just far enough to find any
+    indication that this would be the correct one.\r\n\r\nThere is nothing but dull,
+    yellowing and dying grass and rocks scattered along the path. Not even a hint
+    of a track, trail or any person coming through here for a long time.\r\n\r\nAfter
+    a few minutes of the empty trail, Pildroy turns back to meet up with Rohan again.\r\n\r\nRohan
+    is already there waiting for Pildroy.\r\n\r\nRohan: \u201CYou don\u2019t seem
+    too excited about that side, I\u2019ll assume we should take the right side then?\u201D\r\n\r\nPildroy:
+    \u201CYeah, nothing down the left, let\u2019s speed this up, we were already
+    behind and this fork has slowed us down by at least half an hour.\u201D\r"
+  option1Text: Continue
+  option1StoryBlock: {fileID: 11400000, guid: 6289a8bc5703d5c4e91ee2f916214edc, type: 2}
+  option2Text: N/A
+  option2StoryBlock: {fileID: 0}
+  option3Text: N/A
+  option3StoryBlock: {fileID: 0}
+  option4Text: N/A
+  option4StoryBlock: {fileID: 0}

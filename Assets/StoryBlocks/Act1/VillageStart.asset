@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: VillageStart
+  m_EditorClassIdentifier: 
+  mainText: 'The two ride down the right path, speeding up as they go. The grass
+    begins to green, more trees become visible and the sound of insects and other
+    life drums up.
+
+    
+
+    The sun is low, but a torch light can be seen not
+    too far now. It must be someone from the village.
+
+    
+
+    Rohan pushes ahead,
+    dismounting his horse as he begins to speak to someone. Pildroy catches up and
+    does the same, having missed half the conversation.
+
+
+    This is the end of
+    the prototype, thank you for playing.'
+  option1Text: New Text
+  option1StoryBlock: {fileID: 0}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

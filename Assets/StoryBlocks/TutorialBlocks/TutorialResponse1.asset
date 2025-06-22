@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
   m_Name: TutorialResponse1
   m_EditorClassIdentifier: 
-  mainText: You pressed 1
+  mainText: 'You pressed 1
+
+'
   option1Text: Start Story
-  option2Text: Start Story
-  option3Text: Start Story
-  option4Text: Start Story
   option1StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option2Text: Start Story
   option2StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option3Text: Start Story
   option3StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option4Text: Start Story
   option4StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}

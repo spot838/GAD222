@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: RightRoute
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy rides down the right path, just far enough to find any indication
+    that this would be the way to the village.\r\n\r\nThere is lots of green grass
+    and trees that can be seen further down. No tracks but this seems lively enough
+    that there would be a settlement further down.\r\n\r\nPildroy turns around, and
+    makes it back to the fork before Rohan, who doesn't take long.\r\n\r\nRohan:
+    \u201CWhich path did you check?\u201D\r\n\r\nPildory: \u201CThe right.\u201D\r\n\r\nRohan:
+    \u201CSo\u2026 are we going down that way or do you think it\u2019s not worth
+    it?\u201D\r\n\r\nPildroy: \u201CI don\u2019t think the left side could be much
+    better than this, it\u2019s definitely the more likely one I\u2019d say.\u201D\r"
+  option1Text: Continue
+  option1StoryBlock: {fileID: 11400000, guid: 6289a8bc5703d5c4e91ee2f916214edc, type: 2}
+  option2Text: N/A
+  option2StoryBlock: {fileID: 0}
+  option3Text: N/A
+  option3StoryBlock: {fileID: 0}
+  option4Text: N/A
+  option4StoryBlock: {fileID: 0}
