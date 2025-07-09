@@ -51,7 +51,7 @@ public class StoryManager : MonoBehaviour
         if (shouldLoad)
         {
             TextManager.Instance.AddTextNewLine(currentStoryBlock.mainText);
-            TextManager.Instance.ConstructOptionsTextDisplay(currentStoryBlock);
+            TextManager.Instance.ConstructOptionsTextButtons(currentStoryBlock);
         }
     }
 
@@ -63,6 +63,6 @@ public class StoryManager : MonoBehaviour
     {
         TextManager.Instance.ClearMainText();
         TextManager.Instance.AddTextPlain(currentStoryBlock.mainText);
-        TextManager.Instance.ConstructOptionsTextDisplay(currentStoryBlock);
+        TextManager.Instance.ConstructOptionsTextButtons(currentStoryBlock);
     }
 }

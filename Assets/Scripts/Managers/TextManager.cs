@@ -17,6 +17,14 @@ public class TextManager : MonoBehaviour
     }
     public TMP_Text mainTextDisplay;
     public TextMeshProUGUI optionsTextDisplay;
+    [SerializeField] GameObject optionsButton1;
+    [SerializeField] TextMeshProUGUI optionsText1;
+    [SerializeField] GameObject optionsButton2;
+    [SerializeField] TextMeshProUGUI optionsText2;
+    [SerializeField] GameObject optionsButton3;
+    [SerializeField] TextMeshProUGUI optionsText3;
+    [SerializeField] GameObject optionsButton4;
+    [SerializeField] TextMeshProUGUI optionsText4;
     [SerializeField] [TextArea] string debugText;
 
     [SerializeField] ScrollRect scrollRect;
@@ -122,6 +130,47 @@ public class TextManager : MonoBehaviour
     {
         Debug.Log("Called ConstructOptionsTextDisplay");
         optionsTextDisplay.text = ("Option 1: " + storyBlock.option1Text) + ("\nOption 2: " + storyBlock.option2Text) + ("\nOption 3: " + storyBlock.option3Text) + ("\nOption 4: " + storyBlock.option4Text);
+        GameManager.Instance.listeningForInputs = true;
+    }
+    public void ConstructOptionsTextButtons(StoryBlock storyBlock)
+    {
+        Debug.Log("Called ConstructOptionsTextButtons");
+        optionsButton1.SetActive(false);
+        optionsButton2.SetActive(false);
+        optionsButton3.SetActive(false);
+        optionsButton4.SetActive(false);
+        if (storyBlock.option1StoryBlock != null)
+        {
+            optionsButton1.SetActive(true);
+            optionsText1.text = storyBlock.option1Text;
+
+            optionsButton1.GetComponent<Button>().onClick.RemoveAllListeners();
+            optionsButton1.GetComponent<Button>().onClick.AddListener(() => StoryManager.Instance.OptionSelected(1));
+        }
+        if (storyBlock.option2StoryBlock != null)
+        {
+            optionsButton2.SetActive(true);
+            optionsText2.text = storyBlock.option2Text;
+
+            optionsButton2.GetComponent<Button>().onClick.RemoveAllListeners();
+            optionsButton2.GetComponent<Button>().onClick.AddListener(() => StoryManager.Instance.OptionSelected(2));
+        }
+        if (storyBlock.option3StoryBlock != null)
+        {
+            optionsButton3.SetActive(true);
+            optionsText3.text = storyBlock.option3Text;
+
+            optionsButton3.GetComponent<Button>().onClick.RemoveAllListeners();
+            optionsButton3.GetComponent<Button>().onClick.AddListener(() => StoryManager.Instance.OptionSelected(3));
+        }
+        if (storyBlock.option4StoryBlock != null)
+        {
+            optionsButton4.SetActive(true);
+            optionsText4.text = storyBlock.option4Text;
+
+            optionsButton4.GetComponent<Button>().onClick.RemoveAllListeners();
+            optionsButton4.GetComponent<Button>().onClick.AddListener(() => StoryManager.Instance.OptionSelected(4));
+        }
         GameManager.Instance.listeningForInputs = true;
     }
 
