@@ -15,6 +15,7 @@ public class TextManager : MonoBehaviour
         }
         else Destroy(this);
     }
+    public TextMeshProUGUI titleTextDisplay;
     public TMP_Text mainTextDisplay;
     public TextMeshProUGUI optionsTextDisplay;
     [SerializeField] GameObject optionsButton1;
@@ -25,6 +26,9 @@ public class TextManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI optionsText3;
     [SerializeField] GameObject optionsButton4;
     [SerializeField] TextMeshProUGUI optionsText4;
+
+    [SerializeField] StoryBlock notYetImplementedBlock;
+
     [SerializeField] [TextArea] string debugText;
 
     [SerializeField] ScrollRect scrollRect;
@@ -43,6 +47,7 @@ public class TextManager : MonoBehaviour
     WaitForSeconds _skipDelay;
     [Header("Skip Options")]
     public bool quickSkip;
+    [SerializeField] Toggle quickSkipToggle;
     [SerializeField][Min(1)] private int skipSpeedup = 5;
     [Header("Event Stuff")]
     WaitForSeconds _textboxFullEventDelay;
@@ -171,6 +176,24 @@ public class TextManager : MonoBehaviour
             optionsButton4.GetComponent<Button>().onClick.RemoveAllListeners();
             optionsButton4.GetComponent<Button>().onClick.AddListener(() => StoryManager.Instance.OptionSelected(4));
         }
+
+        if (storyBlock.option1StoryBlock == notYetImplementedBlock)
+        {
+            optionsButton1.GetComponent<Button>().onClick.RemoveAllListeners();
+        }
+        if (storyBlock.option2StoryBlock == notYetImplementedBlock)
+        {
+            optionsButton2.GetComponent<Button>().onClick.RemoveAllListeners();
+        }
+        if (storyBlock.option3StoryBlock == notYetImplementedBlock)
+        {
+            optionsButton3.GetComponent<Button>().onClick.RemoveAllListeners();
+        }
+        if (storyBlock.option4StoryBlock == notYetImplementedBlock)
+        {
+            optionsButton4.GetComponent<Button>().onClick.RemoveAllListeners();
+        }
+
         GameManager.Instance.listeningForInputs = true;
     }
 
@@ -242,6 +265,14 @@ public class TextManager : MonoBehaviour
             quickSkip = false;
             currentlySkipping = false;
         }
+    }
+    public void DisableSkip()
+    {
+        currentlySkipping = false;
+    }
+    public void CheckQuickSkip()
+    {
+        quickSkip = quickSkipToggle.isOn;
     }
 
     #region Scroll Stuff
@@ -322,7 +353,7 @@ public class TextManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             //Debug.Log("Pre: "+"MaxVisibleCharacters: " + mainTextDisplay.maxVisibleCharacters + " | " + "MainText CharacterCount: " + mainTextDisplay.textInfo.characterCount);
             if (mainTextDisplay.maxVisibleCharacters != mainTextDisplay.textInfo.characterCount - 1)

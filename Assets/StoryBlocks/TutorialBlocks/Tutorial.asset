@@ -20,11 +20,12 @@ MonoBehaviour:
     1, 2, 3 & 4 keys on your keyboard to select
     responses to the games events.
 
-    You can also click the left mouse button
-    to speed up the text.
+    You can also click the skip button in the
+    bottom right of the screen or press the [SpaceBar] button to speed up the text.
 
 
-    Test it out now!
+    Test
+    it out now!
 
 '
   option1Text: This is Option 1

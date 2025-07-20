@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 public class StoryManager : MonoBehaviour
 {
@@ -12,6 +13,11 @@ public class StoryManager : MonoBehaviour
     }
 
     public StoryBlock currentStoryBlock;
+
+    public StoryBlock[] Act1StoryBlocks;
+    public StoryBlock[] Act2StoryBlocks;
+    public StoryBlock[] Act3StoryBlocks;
+    public StoryBlock[] PrologueStoryBlocks;
     public void OptionSelected(int value)
     {
         if (value == 1)
@@ -48,6 +54,24 @@ public class StoryManager : MonoBehaviour
     }
     void LoadCurrentStoryBlock(bool shouldLoad)
     {
+        #region Title Change Check
+        if (Act1StoryBlocks.Contains(currentStoryBlock))
+        {
+            TextManager.Instance.titleTextDisplay.text = "Act 1: The Village";
+        }
+        else if (Act2StoryBlocks.Contains(currentStoryBlock))
+        {
+            TextManager.Instance.titleTextDisplay.text = "Act 2: The Riots";
+        }
+        else if (Act3StoryBlocks.Contains(currentStoryBlock))
+        {
+            TextManager.Instance.titleTextDisplay.text = "Act 3: The Renewal";
+        }
+        else if (PrologueStoryBlocks.Contains(currentStoryBlock))
+        {
+            TextManager.Instance.titleTextDisplay.text = "The Prologue";
+        }
+        #endregion
         if (shouldLoad)
         {
             TextManager.Instance.AddTextNewLine(currentStoryBlock.mainText);
