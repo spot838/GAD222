@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act2_Path1.1
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy goes to confront Vespen while Rohan goes to the gate to help
+    their fellow knights hold the door from the rioters as he doesn\u2019t want the
+    civilians to get in. If they were to, a fight between the knights and civilians
+    would be devastating and is preventable.\r\n\r\nPildroy pushes into the main
+    hall demanding to know why Vespen would be treating his people so terribly, to
+    the point so many would be rioting, his entrance interrupts Vespen and Nier who
+    are having a peaceful dinner between themselves.\r\n\r\nVespen ignores Pildroy\u2019s.\r\nVespen:
+    \u201CDid you turn the village over? Are they finally mine?\u201D\r\n\r\nHis
+    ignorance angers Pildroy, who starts moving toward him. Vespen dismisses him
+    and orders his guards to take Pildroy outside of the main hall. The guards, at
+    the thought of having to remove a friend, begrudgingly oblige.\r"
+  option1Text: Continue
+  option1StoryBlock: {fileID: 11400000, guid: fab59a2347f05974091027d9fc2a3d74, type: 2}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

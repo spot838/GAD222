@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Ending_Vespen_Caught
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy drags him back into the Library, and seats him down in front
+    of Fernin.\r\nPildroy: \u201CYou will give up your role as Faelanore\u2019s ruler
+    and hand it over to Fernin. She is someone with integrity and the courage to
+    actually lead and help people, unlike whatever it is that you have been doing
+    all these years\u201D\r\n\r\nVespen: \u201CAs long as I am not harmed or jailed.\u201D\r\n\r\nFernin:
+    \u201CNot even a mention of your wife?\u201D\r\nHe ignores the question.\r\nFernin:
+    \u201CWe were plannin\u2019 on jailin\u2019 ya, but figures you wouldn\u2019t
+    be happy \u2018bout that\u201D.\r\n\r\nPildroy: \u201CWe won\u2019t jail you
+    Vespen. Now you\u2019ll go out the front gate and announce that you are stepping
+    down, and that Fernin is taking your place\u201D\r\n\r\nVespen: \u201COutside
+    of the gate?? Are you crazy?\u201D\r\n\r\nPildroy: \u201CWell if you don\u2019t
+    then we would have to go to drastic measures to fix the damage you have done.\u201D\r\n\r\nThe
+    three of them move through the castle. Once they open the main entrance the rioters
+    get louder. Rohan is back in front of the gate with other knights and guards
+    holding the rioters back.\r\n\r\nPildroy [To Rohan]: \u201CWe\u2019ve done our
+    part, now he does his.\u201D\r\nPildroy motions to Vespen, who stands still in
+    the face of the consequences to his actions.\r\n\r\nA few moments pass, and Vespen
+    then moves to the gate and tells the guards to raise it up.\r\n\r\nThe rioters
+    pause, the guards slowly raise the gate and he steps into the crowd.\r\n\r\nVespen:
+    \u201CI am no longer the king or ruler of Faelanore.\u201D\r\n\r\nShock hits
+    the crowd.\r\n\r\nFernin steps forward, stopping just behind Vespen.\r\n\r\nVespen:
+    \u201CThe title of ruler now belongs to Fernin here.\u201D\r\n\r\nFernin steps
+    forward and Vespen addresses her as the new ruler.\r\n\r\nPath1 End.\n\r\n(Prologue
+    to come)\r"
+  option1Text: New Text
+  option1StoryBlock: {fileID: 0}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

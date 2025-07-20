@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
-  m_Name: RightRoute
+  m_Name: Right_Route
   m_EditorClassIdentifier: 
   mainText: "Pildroy rides down the right path, just far enough to find any indication
     that this would be the way to the village.\r\n\r\nThere is lots of green grass

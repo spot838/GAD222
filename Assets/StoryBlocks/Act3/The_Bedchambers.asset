@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
-  m_Name: TutorialResponse2
+  m_Name: The_Bedchambers
   m_EditorClassIdentifier: 
-  mainText: 'You pressed 2
-
-'
-  option1Text: Start Story
-  option1StoryBlock: {fileID: 0}
-  option2Text: Start Story
-  option2StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
-  option3Text: Start Story
+  mainText: Nier is sleeping by herself here, no sign Vespen has been here yet tonight.
+  option1Text: Try the Library instead
+  option1StoryBlock: {fileID: 11400000, guid: 21f7b2f60db9d5442a111195608e69b4, type: 2}
+  option2Text: Try the Private Quarters instead
+  option2StoryBlock: {fileID: 11400000, guid: 48db4da526e633d4e8a6b5168d696e90, type: 2}
+  option3Text: New Text
   option3StoryBlock: {fileID: 0}
-  option4Text: Start Story
+  option4Text: New Text
   option4StoryBlock: {fileID: 0}

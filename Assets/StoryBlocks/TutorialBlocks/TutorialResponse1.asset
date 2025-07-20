@@ -18,8 +18,8 @@ MonoBehaviour:
   option1Text: Start Story
   option1StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
   option2Text: Start Story
-  option2StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option2StoryBlock: {fileID: 0}
   option3Text: Start Story
-  option3StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option3StoryBlock: {fileID: 0}
   option4Text: Start Story
-  option4StoryBlock: {fileID: 11400000, guid: a11aa41080c42394d9a329dccb06f51b, type: 2}
+  option4StoryBlock: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Village_Start
+  m_EditorClassIdentifier: 
+  mainText: "The two ride down the right path, speeding up as they go. The grass
+    begins to green, more trees become visible and the sound of insects and other
+    life drums up.\r\n\r\nThe sun is low, but a torch light can be seen not too far
+    now. It must be someone from the village.\r\n\r\nRohan pushes ahead, dismounting
+    his horse as he begins to speak to someone. Pildroy catches up and does the same,
+    having missed half the conversation.\r\n\r\nHe knows that the village has refused
+    all requests prior to this point, but the rest of the village has started to
+    fold more and more with each persuasive attempt from the other knights. However
+    one girl refuses to give up and continues to fight for her friends, family and
+    their individuality as a village.\r\n\r\nIt seems the person Rohan was already
+    speaking to was this girl, Pildroy introduces himself\r\n\r\nPildroy: \u201CGood
+    afternoon, my name is Pildroy. We are here on behalf of Vespen and-\u201D\r\n\r\nGirl:
+    \u201CYeah yeah, I knows who you are, he\u2019s already told me that, and I knows
+    what you want, same as every other shiny bucket on a horse that\u2019s come ere
+    before. It ain\u2019t happenin\u2019.\u201D\r\n\r\nRohan: \u201CHer name is Fernin,
+    and she is not very keen on the idea of joining our kingdom.\u201D\r\n\r\nPildroy:
+    \u201CWell I gathered that much.\u201D\r\n\r\nFernin: \u201CAnd it\u2019s gettin\u2019
+    damn late. I have siblings that needs to be put to bed, half of the village to
+    check up on and plenty more before the sun is gone, so unless you are offerin\u2019
+    me somethin\u2019 for free, get out of here.\u201D\r\n\r\nPildory and Rohan are
+    not able to convince Fernin to change her mind and must return with not so great
+    news to Vespen.\r"
+  option1Text: Continue to Act 2
+  option1StoryBlock: {fileID: 11400000, guid: ffbbcf37014b3a8449a2844f8f29f2d9, type: 2}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path1.1
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy scouts around the sides of the village walls and comes across
+    a small cutout in the wooden walls, likely made by children to sneak out and
+    play. Dismounting and tying his horse up, Pildroy squeezes through and finds
+    himself on the far back side of the village.\r\n\r\nFrom behind a tree he spots
+    Fernin showing some older teenagers how to use a stick to defend themselves.\r\nPildroy
+    thinks to himself: \u201CShe is someone who would even stay up late to prepare
+    others after a sign that they would need to be more prepared - she really is
+    the right person.\u201D\r\n\r\nIt takes a little longer for her to finish, eventually
+    she packs up and the kids leave. He approaches her alone to tell her about what
+    happened and his plan to overthrow Vespen and put her in his place as Faelanore\u2019s
+    ruler.\r\n\r\nPildroy: \u201CI\u2019m sorry about earlier, Rohan and I weren\u2019t
+    aware of what Vespen was like. Now we want him gone and you are the best person
+    to replace him.\u201D\r\n\r\nShe stops, shocked as just hours earlier she was
+    being pressured into giving up her friends and family to this kingdom, but now
+    she is being asked to rule over it?\r\n\r\nFernin: \u201CYou want me to what??
+    I can\u2019t, I have too many people that rely on me here.\u201D\r\n\r\nPildroy:
+    \u201CBy ruling over Faelanore you would have complete control over the knights
+    and guards that you would need to protect this place. They could even help those
+    that need it, after all that is what they are for, what I am for.\u201D\r\n\r\nPildroy
+    crawls back through the hole to his horse before meeting up with Fenrin outside
+    the front gate, and the two of them ride to the castle.\r"
+  option1Text: Continue
+  option1StoryBlock: {fileID: 11400000, guid: 5767323bef19e964f8c20f38aa784920, type: 2}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

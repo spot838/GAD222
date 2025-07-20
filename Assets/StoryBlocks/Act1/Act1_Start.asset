@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
-  m_Name: Start
+  m_Name: Act1_Start
   m_EditorClassIdentifier: 
   mainText: "Pildroy is sent out with Rohan to a tiny neighboring village where the
     two of them are tasked with \u201Cpersuading\u201D the village to willingly become

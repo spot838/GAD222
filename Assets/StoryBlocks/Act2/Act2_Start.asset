@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act2_Start
+  m_EditorClassIdentifier: 
+  mainText: "Upon arriving back to the kingdom as the sun shows its final moments
+    of light and the moon takes over, the two knights see the people of Faelanore
+    rioting outside the castle walls.\r\nThey both ride up through the main gate
+    and dismount, leaving their horses in a safer place.\r\n\r\nPildroy: \u201CWhat
+    the hell is happening here.\u201D\r\n\r\nRohan: \u201CI\u2019ve got the same
+    ideas as you as to what, but we can maybe push through them all to get to the
+    castle gate, but it might be risky\u201D\r\n\r\nPildroy: \u201COr we could try
+    to find out why they're doing this in the first place.\u201D\r\n\r\nRohan: \u201COr\u2026
+    we could do that, it\u2019s up to you. Vespen might get angry if we don\u2019t
+    tell him what happened as soon as possible.\u201D\r"
+  option1Text: Find out why the civilians are rioting
+  option1StoryBlock: {fileID: 11400000, guid: c614e0be2b3e78c47894ab9c8d54dd96, type: 2}
+  option2Text: Push through to the main gate [Not Yet Implemented]
+  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

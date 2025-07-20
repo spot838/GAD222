@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path1
+  m_EditorClassIdentifier: 
+  mainText: "After Pildroy is thrown out into the crowd amongst the rioters he decides
+    that he will take it upon himself to find a proper ruler for the kingdom of Faelanore.\r\nDespite
+    knowing them for a very short period of time, he knows that this person is absolutely
+    more suited to the role than Vespen is.\r\nPildroy begins to head back towards
+    the village for Fernin knowing that she is someone with the integrity and willpower
+    to lead people.\r\n\r\nArriving at the village by himself this time, with the
+    soft moonlight to lead him. There are now two men standing on guard at the entrance
+    with torches, preventing Pildroy from entering. Fernin\u2019s previous encounter
+    with the two knights must have inspired some more people in the village to stand
+    back up for themselves.\r\n\r\nPildroy explains that his entire purpose coming
+    back here was to speak with Fernin to take her to Faelanore. This gets misinterpreted
+    as though Pildroy has come to forcibly take Fernin away for what happened before
+    and he is denied entry with the guards no longer listening to him.\r\n\r\nPildroy
+    needs to find some other way inside the village.\r"
+  option1Text: Look for another potential entrance
+  option1StoryBlock: {fileID: 11400000, guid: 92d6ec56329275747a9c2f5f1c2b18ae, type: 2}
+  option2Text: Try to scale the wooden walls while out of sight of the front gate
+    [Not Yet Implemented]
+  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option3Text: Attempt to rush through the front gate past the guards [Not Yet Implemented]
+  option3StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

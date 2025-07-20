@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: The_Private_Quarters
+  m_EditorClassIdentifier: 
+  mainText: A few servants are moving around, cleaning but no sign of Vespen, and
+    none of them would know either.
+  option1Text: Try the Library instead
+  option1StoryBlock: {fileID: 11400000, guid: 21f7b2f60db9d5442a111195608e69b4, type: 2}
+  option2Text: Try the Bedchambers instead
+  option2StoryBlock: {fileID: 11400000, guid: 738593415999cec41be37d328a2c2b09, type: 2}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

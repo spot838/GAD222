@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path1_Continued
+  m_EditorClassIdentifier: 
+  mainText: "The castle is in a much rougher state than when Pildroy left, the torch
+    lights of the rioters lighting up the walls, showing off new cracks and damage
+    - presumably from the rioters throwing rocks in their anger.\r\n\r\nThey stop
+    at the front entrance and dismount, moving through the chaos. No one notices
+    a knight moving through the crowd until he gets to the gate where he shouts to
+    Rohan to raise the gate. With the gate lifted just enough, he pulls Fernin through
+    and helps to close it immediately behind them.\r\n\r\nRohan, looking shocked,
+    asks why he would bring her here.\r\nPildroy: \u201CThis is Vespen\u2019s replacement.\u201D\r\n\r\nRohan:
+    \u201CWhat.\u201D\r\n\r\nPildroy: \u201CI\u2019m overthrowing Vespen and putting
+    Fernin in his place.\u201D\r\n\r\nRohan: \u201CAre you serious?\u201D\r\n\r\nPildroy:
+    \u201CI am serious, I need you to just trust me and help me make this happen.\u201D\r\n\r\nRohan:
+    \u201CAre you one-hundred-percent, absolutely certain?\u201D\r"
+  option1Text: Yes, 100%
+  option1StoryBlock: {fileID: 11400000, guid: 41db53d0b628dc944a97af1810354b8c, type: 2}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

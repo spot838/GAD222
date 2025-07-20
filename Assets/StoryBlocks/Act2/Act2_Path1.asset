@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act2_Path1
+  m_EditorClassIdentifier: 
+  mainText: "Asking around to get an understanding of the situation, Pildroy and
+    Rohan are able to understand that the people of Faelanore are sick and tired
+    of Vespen\u2019s negligence and lack of responsibility for his kingdom. The people
+    are rioting for him to be overthrown.\r\n\r\n\r\nPildory and Rohan have both
+    been raised within the castle walls their whole lives, so they have had very
+    few interactions with the people in the kingdom they fight for.\r"
+  option1Text: Listen to the people, overthrow Vespen
+  option1StoryBlock: {fileID: 11400000, guid: 071ade6c0da9a9849af430441a26472c, type: 2}
+  option2Text: Ignore what the people say [Not Yet Implemented]
+  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}
