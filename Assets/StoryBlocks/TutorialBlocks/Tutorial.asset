@@ -12,20 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
   m_Name: Tutorial
   m_EditorClassIdentifier: 
-  mainText: 'Welcome to [Game Name].
-
-    This text based adventure role playing
-    game is played by using the
-
-    1, 2, 3 & 4 keys on your keyboard to select
-    responses to the games events.
-
-    You can also click the skip button in the
-    bottom right of the screen or press the [SpaceBar] button to speed up the text.
+  mainText: 'Welcome to Pildroy''s Journey.
 
 
-    Test
-    it out now!
+    This text based adventure role
+    playing game is played by using the provided clickable buttons to select responses
+    to the games events.
+
+    Optionally you can use the [1, 2, 3, 4] keys on your
+    keyboard.
+
+
+    You can also click the skip button in the bottom right of the
+    screen or press the [SpaceBar] on your keyboard to speed up the text.
+
+    With
+    the [Quick Skip?] toggled, skipping will immediately show all text instead of
+    speeding it up.
+
+
+    Test it out now!
 
 '
   option1Text: This is Option 1

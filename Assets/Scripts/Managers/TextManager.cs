@@ -35,10 +35,17 @@ public class TextManager : MonoBehaviour
     [SerializeField] RectTransform viewport;
     [SerializeField] RectTransform content;
 
+    [SerializeField] TextScrollController textScrollController;
+
     int _visibleCharacterIndex;
     Coroutine _typewriterCoroutine;
     WaitForSeconds _simpleDelay;
     WaitForSeconds _interpunctuationDelay;
+    [Header("Font Settings")]
+    public bool useDyslexicFont = false;
+    public Toggle dyslexicFontToggle;
+    public TMP_FontAsset defaultFont;
+    public TMP_FontAsset dyslexicFont;
 
     [Header("Typewriter Settings")]
     [SerializeField] float charactersPerSecond = 20f;
@@ -227,6 +234,7 @@ public class TextManager : MonoBehaviour
 
             CharacterRevealed?.Invoke(character);
             _visibleCharacterIndex++;
+            //textScrollController.UpdateScrollPosition();
         }
     }
 
@@ -261,6 +269,7 @@ public class TextManager : MonoBehaviour
         else
         {
             quickSkip = true;
+            currentlySkipping = true;
             Skip();
             quickSkip = false;
             currentlySkipping = false;
@@ -273,6 +282,16 @@ public class TextManager : MonoBehaviour
     public void CheckQuickSkip()
     {
         quickSkip = quickSkipToggle.isOn;
+    }
+
+    public void ToggleDyslexicFont()
+    {
+        useDyslexicFont = dyslexicFontToggle.isOn;
+        mainTextDisplay.font = useDyslexicFont ? dyslexicFont : defaultFont;
+        optionsText1.font = useDyslexicFont ? dyslexicFont : defaultFont;
+        optionsText2.font = useDyslexicFont ? dyslexicFont : defaultFont;
+        optionsText3.font = useDyslexicFont ? dyslexicFont : defaultFont;
+        optionsText4.font = useDyslexicFont ? dyslexicFont : defaultFont;
     }
 
     #region Scroll Stuff
@@ -361,16 +380,6 @@ public class TextManager : MonoBehaviour
                 //Debug.Log("Post: " + "MaxVisibleCharacters: " + mainTextDisplay.maxVisibleCharacters + " | " + "MainText CharacterCount: " + mainTextDisplay.textInfo.characterCount);
                 Skip();
             }
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            //Debug.Log("D Pressed");
-            //AddTextDebug();
-        }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            //Debug.Log("C Pressed");
-            //ClearMainText();
         }
     }
 }

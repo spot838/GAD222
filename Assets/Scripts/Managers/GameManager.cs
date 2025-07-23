@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     public bool listeningForInputs = false;
 
+    public void QuitTheGame()
+    {
+        Application.Quit();
+    }
     private void Awake()
     {
         CreateSingleton();
@@ -21,7 +25,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
+            QuitTheGame();
         }
         if (listeningForInputs)
         {
