@@ -46,6 +46,11 @@ public class TextManager : MonoBehaviour
     public Toggle dyslexicFontToggle;
     public TMP_FontAsset defaultFont;
     public TMP_FontAsset dyslexicFont;
+    [Space(15)]
+    public bool useBlackFont = false;
+    public Toggle fontColourToggle;
+    public Color fontWhite;
+    public Color fontBlack;
 
     [Header("Typewriter Settings")]
     [SerializeField] float charactersPerSecond = 20f;
@@ -293,7 +298,12 @@ public class TextManager : MonoBehaviour
         optionsText3.font = useDyslexicFont ? dyslexicFont : defaultFont;
         optionsText4.font = useDyslexicFont ? dyslexicFont : defaultFont;
     }
-
+    public void ToggleFontColour()
+    {
+        useBlackFont = fontColourToggle.isOn;
+        mainTextDisplay.color = useBlackFont ? fontBlack : fontWhite;
+        titleTextDisplay.color = useBlackFont ? fontBlack : fontWhite;
+    }
     #region Scroll Stuff
     public void ScrollToVisibleTextPosition()
     {
@@ -369,6 +379,9 @@ public class TextManager : MonoBehaviour
     {
         viewport = scrollRect.viewport;
         content = scrollRect.content;
+
+        ToggleDyslexicFont();
+        ToggleFontColour();
     }
     private void Update()
     {
