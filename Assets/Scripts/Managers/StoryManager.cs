@@ -58,18 +58,22 @@ public class StoryManager : MonoBehaviour
         if (Act1StoryBlocks.Contains(currentStoryBlock))
         {
             TextManager.Instance.titleTextDisplay.text = "Act 1: The Village";
+            BackgroundImageManager.Instance.LoadBackgroundImage(1);
         }
         else if (Act2StoryBlocks.Contains(currentStoryBlock))
         {
             TextManager.Instance.titleTextDisplay.text = "Act 2: The Riots";
+            BackgroundImageManager.Instance.LoadBackgroundImage(2);
         }
         else if (Act3StoryBlocks.Contains(currentStoryBlock))
         {
             TextManager.Instance.titleTextDisplay.text = "Act 3: The Renewal";
+            BackgroundImageManager.Instance.LoadBackgroundImage(3);
         }
         else if (PrologueStoryBlocks.Contains(currentStoryBlock))
         {
             TextManager.Instance.titleTextDisplay.text = "The Prologue";
+            BackgroundImageManager.Instance.LoadBackgroundImage(4);
         }
         #endregion
         if (shouldLoad)
@@ -88,5 +92,7 @@ public class StoryManager : MonoBehaviour
         TextManager.Instance.ClearMainText();
         TextManager.Instance.AddTextPlain(currentStoryBlock.mainText);
         TextManager.Instance.ConstructOptionsTextButtons(currentStoryBlock);
+
+        BackgroundImageManager.Instance.LoadBackgroundImage(0);
     }
 }
