@@ -2457,7 +2457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -705, y: 50}
+  m_AnchoredPosition: {x: -560.18, y: 0.00000095367}
   m_SizeDelta: {x: 365, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594389884
@@ -5223,8 +5223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -705, y: 456}
-  m_SizeDelta: {x: 1200, y: 100}
+  m_AnchoredPosition: {x: -560.1797, y: 449.99994}
+  m_SizeDelta: {x: 800, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613428993
 MonoBehaviour:
@@ -5246,9 +5246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pildroy''s
-
-    Journey'
+  m_text: Pildroy's Journey
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea619ed0a5ed0384fa79a3d5134a8daf, type: 2}
   m_sharedMaterial: {fileID: 1102466609928684094, guid: ea619ed0a5ed0384fa79a3d5134a8daf, type: 2}
