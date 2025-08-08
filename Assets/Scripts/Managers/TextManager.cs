@@ -107,10 +107,10 @@ public class TextManager : MonoBehaviour
 
         mainTextDisplay.ForceMeshUpdate();
         mainTextDisplay.maxVisibleCharacters = mainTextDisplay.textInfo.characterCount - newText.Length;
-        Debug.Log("Text Character Count: " + mainTextDisplay.textInfo.characterCount);
-        Debug.Log("Text Visible Characters: " + mainTextDisplay.maxVisibleCharacters);
+        //Debug.Log("Text Character Count: " + mainTextDisplay.textInfo.characterCount);
+        //Debug.Log("Text Visible Characters: " + mainTextDisplay.maxVisibleCharacters);
         _visibleCharacterIndex = mainTextDisplay.maxVisibleCharacters;
-        Debug.Log("visibleCharIndex: " + _visibleCharacterIndex);
+        //Debug.Log("visibleCharIndex: " + _visibleCharacterIndex);
 
         _typewriterCoroutine = StartCoroutine(routine: Typewriter());
         ScrollToVisibleTextPosition();

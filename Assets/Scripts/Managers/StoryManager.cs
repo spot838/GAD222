@@ -17,7 +17,7 @@ public class StoryManager : MonoBehaviour
     public StoryBlock[] Act1StoryBlocks;
     public StoryBlock[] Act2StoryBlocks;
     public StoryBlock[] Act3StoryBlocks;
-    public StoryBlock[] PrologueStoryBlocks;
+    public StoryBlock[] EpilogueStoryBlocks;
     public void OptionSelected(int value)
     {
         if (value == 1)
@@ -30,7 +30,7 @@ public class StoryManager : MonoBehaviour
         }
         else if (value == 3)
         {
-            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option4StoryBlock));
+            LoadCurrentStoryBlock(ChangeCurrentStoryBlock(currentStoryBlock.option3StoryBlock));
         }
         else if (value == 4)
         {
@@ -70,9 +70,9 @@ public class StoryManager : MonoBehaviour
             TextManager.Instance.titleTextDisplay.text = "Act 3: The Renewal";
             BackgroundImageManager.Instance.LoadBackgroundImage(3);
         }
-        else if (PrologueStoryBlocks.Contains(currentStoryBlock))
+        else if (EpilogueStoryBlocks.Contains(currentStoryBlock))
         {
-            TextManager.Instance.titleTextDisplay.text = "The Prologue";
+            TextManager.Instance.titleTextDisplay.text = "The Epilogue";
             BackgroundImageManager.Instance.LoadBackgroundImage(4);
         }
         #endregion
