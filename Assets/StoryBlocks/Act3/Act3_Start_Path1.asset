@@ -29,9 +29,8 @@ MonoBehaviour:
   option1Text: Look for another potential entrance
   option1StoryBlock: {fileID: 11400000, guid: 92d6ec56329275747a9c2f5f1c2b18ae, type: 2}
   option2Text: Try to scale the wooden walls while out of sight of the front gate
-    [Not Yet Implemented]
-  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option2StoryBlock: {fileID: 11400000, guid: c41794c4c69f73241a6ed9fd80f55fb0, type: 2}
   option3Text: Attempt to rush through the front gate past the guards [Not Yet Implemented]
-  option3StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option3StoryBlock: {fileID: 0}
   option4Text: New Text
   option4StoryBlock: {fileID: 0}

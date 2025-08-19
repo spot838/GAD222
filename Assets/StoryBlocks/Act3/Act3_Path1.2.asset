@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path1.2
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy feigns leaving, curving back around out of the right of the
+    guards, scanning the side walls for one that is possibly scaleable.\r\n\r\nHe
+    spots one, a dip in the wall near the top, it should be just low enough to climb
+    over.\r\n\r\nPildroy rides up slowly, dismounting right next to the wall and
+    standing up on top of his horse. In a swift, single jump he grabs onto the edge
+    of the wall and pulls himself upwards, struggling to keep his metal suit from
+    clanging and stirring up noise.\r\n\r\nHe gets up and over but only after landing
+    unsteady and very loudly, he won\u2019t have much time till the guards come for
+    him.\r\n\r\nHe spots Fernin cleaning up a mess outside another person's living
+    space. He quickly runs up to tell her about what happened and his plan to overthrow
+    Vespen and put her in his place as Faelanore\u2019s ruler.\r\n\r\nPildroy: \u201CI\u2019m
+    sorry about earlier, Rohan and I weren\u2019t aware of what Vespen was like.
+    Now we want him gone and you are absolutely the best person to replace him.\u201D\r\n\r\nShe
+    stops, shocked as just hours earlier she was being pressured into giving up her
+    friends and family to this kingdom, but now she is being asked to rule over it?\r\n\r\nFernin:
+    \u201CYou want me to what?? I can\u2019t, I have too many people that rely on
+    me here.\u201D\r\n\r\nPildroy: \u201CBy ruling over Faelanore you would have
+    complete control over the knights and guards that you would need to protect this
+    place. They could even help out the people that need it, after all that is what
+    they are for, what I am for.\u201D\r\n\r\nPildroy: \u201CAnd we have to go, right
+    now.\u201D\r\n"
+  option1Text: New Text
+  option1StoryBlock: {fileID: 0}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

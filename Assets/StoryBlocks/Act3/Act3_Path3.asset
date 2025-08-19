@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path3
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy takes himself out of the castle and rushes back to the front
+    gate with bad news.\r\n\r\nPildroy: \u201CNo, I couldn\u2019t get anything to
+    help us, but if we can all hold this for just a few more hours, then the rioters
+    will all tire and give out. They don\u2019t have the training we do. They don't
+    have the support of each other to hold them up like we do.\u201D\r\n\r\nRohan:
+    \u201CYeah\u2026 YEAH! HOLD FAST MEN WE CAN AND WILL HOLD THIS.\u201D\r\n\r\nThe
+    next few hours are long, tiring and draw all of the energy out of each of the
+    men. But the civilians have started dispersing and they disperse quickly, after
+    just a few from the front leave, the rest fall like dominoes.\r\n\r\nThe next
+    several minutes are fast, and by the end of it Pildroy, Rohan and the others
+    all slump in place, quickly dropping into sleep from exhaustion.\r\n\r\nAll this
+    while Vespen has, by this point, been having an incredibly peaceful night's rest\u2026\r\n\r\nPath
+    3 Ending\r\n\r\n[Epilogue to come]\r\n"
+  option1Text: New Text
+  option1StoryBlock: {fileID: 0}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

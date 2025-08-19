@@ -24,8 +24,8 @@ MonoBehaviour:
     tell him what happened as soon as possible.\u201D\r"
   option1Text: Find out why the civilians are rioting
   option1StoryBlock: {fileID: 11400000, guid: c614e0be2b3e78c47894ab9c8d54dd96, type: 2}
-  option2Text: Push through to the main gate [Not Yet Implemented]
-  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option2Text: Push through to the main gate
+  option2StoryBlock: {fileID: 11400000, guid: d2a63e29c916e0447a2ac45531ddcaf8, type: 2}
   option3Text: New Text
   option3StoryBlock: {fileID: 0}
   option4Text: New Text

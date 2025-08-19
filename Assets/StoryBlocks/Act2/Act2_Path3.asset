@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act2_Path3
+  m_EditorClassIdentifier: 
+  mainText: "The two knights force themselves through the crowd to the front gate,
+    pushing past starving and frail civilians. At the gate they are able to get inside,
+    past the civilians continue to riot right outside.\r\n\r\nPildroy: \u201CHow
+    long have you been holding this for? When did it start? Do we know what started
+    it?\u201D\r\n\r\nGuard: \u201CHoldin\u2019 this since you an he left.\u201D\r\nHe
+    gestures to Rohan\r\n\r\nGuard: \u201CIt ain\u2019t stopped since then, I\u2019m
+    tired, he\u2019s tired, we\u2019s all tied ere\u2019. Don\u2019t know what started
+    it, don\u2019t care to know either, I just want it stopped.\u201D\r\n\r\nPildroy:
+    \u201CI\u2019ll go find Vespen, try to request for reinforcements or something
+    that we can use to help hold for a bit longer.\u201D\r\n\r\nHe finds Vespen in
+    the dining hall, having dinner with Nier.\r\n\r\nPildroy: \u201CSorry to interrupt,
+    but the hold at the gate isn\u2019t going to last much longer. We need reinforcements
+    or something to help us hold any amount longer.\u201D\r\n\r\nVespen: \u201CHow
+    was your little adventure down to the village? I\u2019ll assume it didn\u2019t
+    go well considering you didn\u2019t lead with that.\u201D\r\n\r\nPildroy: \u201CI
+    don\u2019t think that should be a concern right now, if these men have to hold
+    for much longer they\u2019re going to tire and the rioters will push through\u201D\r\n\r\nVespen:
+    \u201CI think that it very much is my concern right now, my men at the gate can
+    hold it just fine themselves, and you can go ahead and join them.\u201D\r\n\r\nVespen
+    directs his personal guards to lead Pildroy out of the dining hall.\r"
+  option1Text: Continue
+  option1StoryBlock: {fileID: 11400000, guid: ed2f77396748f6a45b17dff1c431a7d2, type: 2}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}

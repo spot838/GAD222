@@ -118,7 +118,7 @@ public class TextManager : MonoBehaviour
     public void AddTextNewLine(string newText)
     {
         Debug.Log("Called AddTextNewLine");
-        AddTextPlain("\n"+newText);
+        AddTextPlain("\n"+"\n"+newText);
     }
     public void AddTextDebug()
     {
@@ -328,13 +328,10 @@ public class TextManager : MonoBehaviour
 
     private Vector2 CalculateScrollPosition(float visibilityRatio)
     {
-        // Adjust scroll position based on visibility ratio
-        // Higher ratio means scroll further down
         float normalizedPosY = 1f - visibilityRatio;
 
         return new Vector2(
-            0f, // Keep horizontal position unchanged
-            normalizedPosY
+            0f, normalizedPosY
         );
     }
 
@@ -349,8 +346,7 @@ public class TextManager : MonoBehaviour
             elapsed += Time.deltaTime;
             float t = elapsed / duration;
 
-            // Use smoothstep for more natural easing
-            t = t * t * (3f - 2f * t); // Smoothstep interpolation
+            t = t * t * (3f - 2f * t);
 
             scrollRect.normalizedPosition = Vector2.Lerp(startPos, targetPos, t);
             yield return null;
@@ -361,7 +357,6 @@ public class TextManager : MonoBehaviour
 
     private void OnTextChanged()
     {
-        // Optionally auto-scroll when text changes
         ScrollToVisibleTextPosition();
     }
     #endregion

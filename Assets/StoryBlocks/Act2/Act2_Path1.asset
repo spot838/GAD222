@@ -20,8 +20,8 @@ MonoBehaviour:
     few interactions with the people in the kingdom they fight for.\r"
   option1Text: Listen to the people, overthrow Vespen
   option1StoryBlock: {fileID: 11400000, guid: 071ade6c0da9a9849af430441a26472c, type: 2}
-  option2Text: Ignore what the people say [Not Yet Implemented]
-  option2StoryBlock: {fileID: 11400000, guid: e077da99c9c5d174f99fa9a225db5c1c, type: 2}
+  option2Text: Ignore what the people say
+  option2StoryBlock: {fileID: 11400000, guid: 2c01f16c85db14244b6ca64325338833, type: 2}
   option3Text: New Text
   option3StoryBlock: {fileID: 0}
   option4Text: New Text

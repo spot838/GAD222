@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38115a31abc3bf45b9b452c9d42adb1, type: 3}
+  m_Name: Act3_Path2
+  m_EditorClassIdentifier: 
+  mainText: "Pildroy and Rohan now find themselves at the front gate, holding against
+    the mob of angry civilians. They try to ask some of them what their reasons for
+    rioting are, but most of the people at the front gate are the angriest and most
+    difficult to speak or reason with, not the best type of people to have a conversation
+    with.\r\n\r\nA few of the civilians do mention that they're rioting because they
+    have been forced out of work or similar issues that Vespen said he would fix
+    but has not and now these people have no way to get food for their families and
+    are now starving. These people are not lying, it is clearly visible that it has
+    been an ongoing issue with how unhealthily thin some of these people are.\r\n\r\nPildroy
+    and Rohan have been sheltered within the castle walls most of their life and
+    focused on knights training for so long that they have not seen or heard the
+    people they have trained to protect.\r\n\r\nPildroy: \u201CShould we just let
+    them through?\u201D\r\n\r\nRohan: \u201CWhat?\u201D\r\n\r\nPildroy: \u201CShould
+    we just let the civilians in?\u201D\r\n\r\nRohan: \u201CI heard you. I just didn't
+    and still do not understand the thought behind that\u201D\r\n\r\nPildroy: \u201CI
+    know it would be a blood bath, but these people are soon to die if we stop them
+    from entering. There is enough in the castle to feed them and we can try to have
+    the knights and guards here let them through, we know them and they're good people,
+    they wouldn\u2019t have known the same way we didn't\u201D\r\n\r\nRohan: \u201CYou're
+    right, I don't know if this is the best way to do it, but at this point I don't
+    think there is a best way. I'll go round and inform the guards, you get ready
+    to open the gate\u201D\r\n\r\nRohan tells the other knights and guards around
+    about the plan and then signals to Pildroy for the gate to be opened.\r\n\r\nPildroy:
+    \"Alright, I guess that's it then\u201D\r\n\r\nHe opens the gate as quickly as
+    possible. The rioters are confused at first, they pause, but only for half a
+    second before they rampage through.\r\n\r\nIt is loud, the sounds emanating within
+    the castle echo out into the streets.\r\n\r\nSome of the civilians turned to
+    the kitchen, attracted by the smell of food.\r\nThe rest went straight down the
+    main hall for a different purpose. Anger.\r\n\r\nThe sounds grew louder before
+    they went quiet. Screams. Shouts. Rage.\r\n\r\nThere was no clear way of telling
+    exactly what had happened, but several of the civilians had grabbed bags of food
+    and left.\r\n\r\nThe rest that were now leaving had blood stains on them, some
+    more than others but blood all the same.\r\n\r\nRohan: \u201CDo you think that
+    was the right call? It's going to be a foul clean up in there\u201D\r\n\r\nPildroy:
+    \u201CI don't know if that was the right call, but he was probably going to get
+    it eventually, the other knights look exhausted, and I don't know if we all could
+    have held it for the entire night. It's definitely going to be a disgusting mess
+    in there, but I'm more concerned about what to do after.\u201D\r\n\r\nRohan:
+    \u201CWhat do you mean?\u201D\r\n\r\nPildroy: \u201CWell even though he wasn't
+    making the correct decisions, or very many to begin with. He still had his connections
+    and at least had Faelanore held up, now there is no one.\u201D\r\n\r\nRohan:
+    \u201CYou're right\u2026 We should start to look for a replacement then\u201D\r\n\r\nPath
+    2 Ending\r\n\r\n[Epilogue to come]\r\n"
+  option1Text: New Text
+  option1StoryBlock: {fileID: 0}
+  option2Text: New Text
+  option2StoryBlock: {fileID: 0}
+  option3Text: New Text
+  option3StoryBlock: {fileID: 0}
+  option4Text: New Text
+  option4StoryBlock: {fileID: 0}
